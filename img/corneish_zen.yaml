@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: corneish_zen, layout_name: default_transform}
 layers:
   L1:
-  - $$mdi:keyboard-esc$$
+  - $$mdi:keyboard-tab$$
   - B
   - L
   - D
@@ -13,7 +13,7 @@ layers:
   - U
   - J
   - {t: ;, s: ':'}
-  - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$', type: backspace}
+  - $$mdi:keyboard-esc$$
   - N
   - {t: R, h: '$$mdi:apple-keyboard-control$$'}
   - {t: T, h: '$$mdi:apple-keyboard-option$$'}
@@ -24,7 +24,7 @@ layers:
   - {t: A, h: '$$mdi:apple-keyboard-option$$'}
   - {t: E, h: '$$mdi:apple-keyboard-control$$'}
   - I
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: ',', s: <}
   - {t: Fn, h: '$$mdi:close-box$$'}
   - Q
   - X
@@ -34,15 +34,15 @@ layers:
   - K
   - P
   - {t: ., s: '>'}
-  - {t: ',', s: <}
-  - {t: ;, s: ':'}
+  - {t: '-', s: _}
+  - {t: /, s: '?'}
   - {t: Fn, h: '$$mdi:close-box$$'}
-  - $$mdi:keyboard-tab$$
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: L2, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$', type: backspace}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: L2, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
-  - {t: '`', s: '~'}
   L2:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
