@@ -1,48 +1,48 @@
 layout: {zmk_keyboard: corneish_zen, layout_name: default_transform}
 layers:
   L1:
-  - $$mdi:keyboard-tab$$
-  - B
-  - L
-  - D
-  - W
-  - Z
-  - {t: '''', s: '"'}
-  - F
-  - O
-  - U
-  - J
-  - {t: ;, s: ':'}
   - $$mdi:keyboard-esc$$
-  - N
-  - {t: R, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: T, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: S, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: G, h: '$$mdi:triangle$$'}
-  - {t: Y, h: '$$mdi:triangle$$'}
-  - {t: H, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: A, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: E, h: '$$mdi:apple-keyboard-control$$'}
-  - I
-  - {t: ',', s: <}
-  - {t: Fn, h: '$$mdi:close-box$$'}
   - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - $$mdi:close-box$$
+  - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$', type: backspace}
+  - A
+  - {t: S, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: G, h: '$$mdi:triangle$$'}
+  - {t: H, h: '$$mdi:triangle$$'}
+  - {t: J, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: K, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '''', s: '"'}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: Fn, h: '$$mdi:close-box$$'}
+  - Z
   - X
-  - M
   - C
   - V
-  - K
-  - P
+  - B
+  - N
+  - M
+  - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: '-', s: _}
-  - {t: /, s: '?'}
+  - {t: ;, s: ':'}
   - {t: Fn, h: '$$mdi:close-box$$'}
-  - {t: L2, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
+  - $$mdi:keyboard-tab$$
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$', type: backspace}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: L2, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: L2, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
+  - {t: '`', s: '~'}
   L2:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
